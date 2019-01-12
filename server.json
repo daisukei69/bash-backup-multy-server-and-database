@@ -1,0 +1,45 @@
+{
+	"server_1":{
+			"host":"192.168.0.xx",
+			"user":"user_db",
+			"pass":"pass_db",
+			"port":"3306",
+			"db":"name_db"
+		},
+	"server_2":{
+			"host":"192.168.0.xx",
+			"user":"user_db",
+			"port":"3306",
+			"pass":"pass_db",
+			"db":"name_db"
+		},
+	"server_3":{
+			"host":"192.168.0.xx",
+			"user":"user_db",
+			"port":"3306",
+			"pass":"pass_db",
+			"db":"name_db"
+		},
+	"server_4":{
+			"host":"192.168.0.xx",
+			"user":"user_db",
+			"port":"3306",
+			"pass":"pass_db",
+			"db":"name_db"
+		},
+	"server_5":{
+			"host":"192.168.0.xx",
+			"user":"user_db",
+			"port":"3306",
+			"pass":"pass_db",
+			"db":"name_db"
+		},
+	"intramail_6":{
+			"host":"192.168.0.xx",
+			"user":"user_db",
+			"port":"3306",
+			"pass":"pass_db",
+			"db":"name_db"
+		}
+			
+}	

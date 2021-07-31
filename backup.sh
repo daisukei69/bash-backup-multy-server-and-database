@@ -30,7 +30,7 @@ do
 	fi
 	
 	#backup Data Base use mysqldump
-	mysqldump -u$Get_user -h$Get_host -p$Get_pass -P$Get_port $Get_db > $FILEBACKUP
+	mysqldump --lock-tables=false --single-transaction -u$Get_user -h$Get_host -p$Get_pass -P$Get_port $Get_db > $FILEBACKUP
 	
 	#archive file sql to tar.xz
 	tar -cjf ${DEST}/${Get_db}_$CURRDATE.tar.xz --absolute-names --directory=${DEST}/ ${Get_db}_$CURRDATE.sql
